@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+   
+    <TextView 
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2015.1.7  Friday"
+        android:gravity="left"
+        android:textSize="16sp"
+        />
+    
+     <TextView 
+        android:id="@+id/text_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+
+     <!--  <ImageView android:layout_width="wrap_content" />-->
+     
+     <ImageView
+      	android:id="@+id/img"
+      	android:layout_width="135dp" 
+      	android:layout_height="135dp"
+      	android:layout_gravity="center"
+      	android:src="@drawable/sunny"
+      	/> 
+    
+     
+      <TextView 
+        android:id="@+id/text_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temperature"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+     <TextView 
+        android:id="@+id/text_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+     
+     <TextView 
+        android:id="@+id/text_wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wind"
+        android:gravity="center"
+        android:textSize="16sp"
+        />
+     
+     <TextView 
+        android:id="@+id/text_index_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index_d"
+        android:gravity="left"
+        android:textSize="14sp"
+        />
+</LinearLayout>

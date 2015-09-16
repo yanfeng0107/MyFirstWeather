@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_weight="1"
+        
+        >"
+    <TextView 
+        android:id="@+id/text_weekday1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weekday1"
+        android:gravity="center"
+        />
+    
+  <ImageView
+      	android:id="@+id/img_1"
+      	android:layout_width="40dp" 
+      	android:layout_height="40dp"
+      	android:layout_gravity="center"
+      /> 
+    
+    <TextView 
+        android:id="@+id/text_temperature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temperature1"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_index1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index1"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_wind1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wind1"
+        android:gravity="center"
+        />
+	
+    </LinearLayout>
+    
+    <ImageView 
+	    android:id="@+id/img_col_line1"
+      	android:layout_width="wrap_content" 
+      	android:layout_height="match_parent"
+      	android:layout_gravity="center"
+      	android:src="@drawable/colline"
+	    />
+    
+    <LinearLayout
+        android:layout_width="0dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        android:layout_weight="1"
+        >
+    <TextView 
+        android:id="@+id/text_weekday2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weekday2"
+        android:gravity="center"
+        />
+    
+  <!-- <ImageView android:layout_width="wrap_content" /> -->
+    
+    <ImageView
+      	android:id="@+id/img_2"
+      	android:layout_width="40dp" 
+      	android:layout_height="40dp"
+      	android:layout_gravity="center"
+      /> 
+      
+    <TextView 
+        android:id="@+id/text_temperature2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temperature2"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_index2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index2"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_wind2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wind2"
+        android:gravity="center"
+        />
+	
+    </LinearLayout>
+    
+    <ImageView 
+	    android:id="@+id/img_col_line2"
+      	android:layout_width="wrap_content" 
+      	android:layout_height="match_parent"
+      	android:layout_gravity="center"
+      	android:src="@drawable/colline"
+	    /> 
+    
+    <LinearLayout
+        android:layout_width="0dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        android:layout_weight="1"
+        >
+    <TextView 
+        android:id="@+id/text_weekday3"
+       android:layout_width="match_parent" 
+      	android:layout_height="wrap_content"
+        android:text="weekday3"
+        android:gravity="center"
+        />
+    
+  <!-- <ImageView android:layout_width="wrap_content" /> -->
+    
+    <ImageView
+      	android:id="@+id/img_3"
+      	android:layout_width="40dp" 
+      	android:layout_height="40dp"
+      	android:layout_gravity="center"
+      /> 
+    
+    <TextView 
+        android:id="@+id/text_temperature3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temperature3"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_index3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index3"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_wind3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wind3"
+        android:gravity="center"
+        />
+	
+    </LinearLayout>
+    
+    <ImageView 
+	    android:id="@+id/img_col_line3"
+      	android:layout_width="wrap_content" 
+      	android:layout_height="match_parent"
+      	android:layout_gravity="center"
+      	android:src="@drawable/colline"
+	    />
+    
+    <LinearLayout
+        android:layout_width="0dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        android:layout_weight="1"
+        >
+    <TextView 
+        android:id="@+id/text_weekday4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weekday4"
+        android:gravity="center"
+        />
+    
+  <!-- <ImageView android:layout_width="wrap_content" /> -->
+    
+    	<ImageView
+      	android:id="@+id/img_4"
+      	android:layout_width="40dp" 
+      	android:layout_height="40dp"
+      	android:layout_gravity="center"
+      	/> 
+    
+    <TextView 
+        android:id="@+id/text_temperature4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temperature4"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_index4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="index4"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/text_wind4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wind4"
+        android:gravity="center"
+        />
+	
+    </LinearLayout>
+    
+</LinearLayout>
